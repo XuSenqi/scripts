@@ -6,7 +6,7 @@ function Usage() {
         -a api, required
         -d date to serach, like 2017042718 or  20170427*, required
         -R Retcode of api, like 8060, 8039, optional
-        -e email: like 961333463%40qq.com or qq, optional
+        -e email: like 961333463@qq.com or qq, optional
         -p policy: like (stable|gray|recycle|resize|gray3|tm|all), default stable, optional
     "
     echo "example: $0 -a CreateUHost -d 2017051305 -R 8060 -e qq "

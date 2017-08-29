@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Shell中字符串分割的方法
+echo "=======string split methods==============="
 # 1 shell用字符串中的空格（或者替换成空格），来分割
 echo "=======string split using blank==============="
 var='1,2,3,4,5'  
@@ -61,4 +62,9 @@ done
 #done
 echo "=======string split to arr using awk end==============="
 
-
+echo ""
+echo "=======string length==============="
+str="hello"
+len=${#str}
+echo "$str,  $len"
+echo "=======string length len==============="

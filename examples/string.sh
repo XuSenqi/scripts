@@ -37,7 +37,8 @@ string_split_awk() {
     str=$1
     sepa=$2
     i=1
-    while [ 1 == 1 ]
+    #while [ 1 == 1 ]
+    while true
     do
         split=`echo $str | cut -d $sepa -f $i`  
         #split=`echo $str | cut -d $sepa -f $i | tr -d ' '`   #删除了空格

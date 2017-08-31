@@ -14,7 +14,8 @@
 #定义函数
 echo "=======function definition==============="
 function fname1() {
-    echo "in function fname1: $@"
+    echo "in function fname1: the whole parameter is $@"
+    echo "in function fname1: total parameter number is $#"
 }
 fname1 1 2 3
 

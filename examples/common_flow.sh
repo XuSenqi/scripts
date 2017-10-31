@@ -30,6 +30,16 @@ case $cho in
         echo "Your choose is error!" 
         ;;
 esac
+
+cho="no"
+case $cho in
+    "yes" | "no")
+        echo "Your choose is yes or no!"
+        ;; 
+    *)
+        echo "Your choose is error!" 
+        ;;
+esac
 echo "=======case in esac end ==============="
 
 echo ""

@@ -2,6 +2,8 @@
 
 if [[ $# -ne 6 ]];then
     echo "eg. $0 \$user \$src_ip \$file_path \$dst_user \$dst_ip \$dst_dir" >&2
+    echo "eg. $0 patrickxu 192.168.150.116 \$file_path root \$dst_ip \$dst_dir" >&2
+    echo "eg. $0 patrick.xu \$mac_ip \$file_path root \$dst_ip \$dst_dir" >&2
     exit 1
 fi
 

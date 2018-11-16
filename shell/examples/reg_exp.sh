@@ -17,3 +17,15 @@ reg='^([0-9]{1,3}.){3}[0-9]{1,3}$'
 if [[ "$newip" =~ $reg ]];then
     echo '333, 找到了ip地址'
 fi
+
+reg='^/dev/vg/.*_delete_.*$'
+lvm='/dev/vg/5b81a070-9c9e-4a2b-8019-b795d46562f6'
+lvm1='/dev/vg/5b81a070-9c9e-4a2b-8019-b795d46562f6_delete_1530870238'
+if [[ "$lvm" =~ $reg ]];then
+    echo 'lvm = $lvm, to delete'
+fi
+if [[ "$lvm1" =~ $reg ]];then
+    echo 'lvm1 = $lvm1, to delete'
+fi
+
+exit 0

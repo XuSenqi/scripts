@@ -12,3 +12,18 @@ for(var i = 0; i < arr.length;){
     console.log( slice_ids );
 };
 
+var items = [
+  { name: 'Edward', value: 21 },
+  { name: 'Sharpe', value: 37 },
+  { name: 'And', value: 45 },
+  { name: 'The', value: -12 },
+  { name: 'Magnetic' },
+  { name: 'Zeros', value: 37 }
+];
+
+// sort by value
+items.sort(function (a, b) {
+  return (a.value - b.value)
+});
+
+console.log( items );
